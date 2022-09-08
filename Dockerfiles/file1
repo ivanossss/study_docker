@@ -1,7 +1,0 @@
-FROM python:alpine
-
-WORKDIR /APP
-
-COPY . .
-
-CMD ["python", "main.py"]
