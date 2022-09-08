@@ -3,3 +3,5 @@ fs.appendFile('my-file.txt', 'File is created by Node.js', (err) => {
     if (err) throw err
     console.log('File is saved!')
 })
+
+setTimeout(() => console.log('Конец'), 30000 );
